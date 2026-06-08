@@ -1,0 +1,7 @@
+# robots.txt for the site
+# Replace the example sitemap URL with your production domain's sitemap URL after deployment
+User-agent: *
+Disallow:
+
+# Sitemap - production domain
+Sitemap: https://abhishekpoyyeri.me/sitemap.xml

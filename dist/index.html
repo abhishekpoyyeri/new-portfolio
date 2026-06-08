@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek P — Software Engineering Student | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Abhishek P, a Software Engineering Student based in Calicut, India. Specializing in full-stack development, Flutter, and cloud technologies."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content="Abhishek P — Software Engineering Student | Portfolio" />
+    <meta property="og:description" content="Portfolio of Abhishek P, a Software Engineering Student based in Calicut, India. Specializing in full-stack development, Flutter, and cloud technologies." />
+    <meta property="og:image" content="https://abhishekpoyyeri.me/pic.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:site_name" content="Abhishek P — Portfolio" />
+    <meta name="twitter:creator" content="@abhishekpoyyeri" />
+    <link rel="icon" href="/file.svg" />
+    <link rel="canonical" href="https://abhishekpoyyeri.me/" />
+    <meta property="og:url" content="https://abhishekpoyyeri.me/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="./pic.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-DNlWa0hk.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CjhaadIG.css">
+  </head>
+  <body>
+    <script>
+      // Dynamic canonical, og:url and JSON-LD using the current origin so this works regardless of deploy domain.
+      (function () {
+        try {
+          var origin = location.origin.replace(/:\/\/$/, '');
+          var canonical = document.querySelector('link[rel="canonical"]');
+          if (!canonical) {
+            canonical = document.createElement('link');
+            canonical.rel = 'canonical';
+            canonical.href = origin + '/';
+            document.head.appendChild(canonical);
+          }
+
+          var ogUrl = document.querySelector('meta[property="og:url"]');
+          if (ogUrl) ogUrl.content = canonical.href;
+
+          // JSON-LD for Person / Organization (include deployed origin if available)
+          var jsonLd = document.createElement('script');
+          jsonLd.type = 'application/ld+json';
+          jsonLd.text = JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Abhishek P",
+            "url": canonical.href || 'https://abhishekpoyyeri.me/',
+            "sameAs": [
+              "https://www.linkedin.com/in/abhishekpoyyeri/",
+              "https://github.com/abhishekpoyyeri"
+            ],
+            "jobTitle": "Software Engineering Student",
+            "address": { "@type": "PostalAddress", "addressLocality": "Calicut", "addressCountry": "IN" }
+          });
+          document.head.appendChild(jsonLd);
+        } catch (e) { /* ignore in older browsers */ }
+      })();
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
