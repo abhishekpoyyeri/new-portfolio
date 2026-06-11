@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <section className="skills" id="skills">
       <div className="section-header" style={{ padding: 0, marginBottom: "40px" }}>
-        <div className="section-title">Expertise</div>
+        <h2 className="section-title">Expertise</h2>
       </div>
       <div className="skills-grid">
         <FadeIn>

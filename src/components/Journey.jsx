@@ -55,7 +55,7 @@ export default function Journey() {
 
   return (
     <section className="journey" id="journey">
-      <div className="journey-heading">My Journey</div>
+      <h2 className="journey-heading">My Journey</h2>
       <div className="journey-grid">
         <FadeIn className="journey-timeline" once={false}>
           <h3>Journey Timeline</h3>

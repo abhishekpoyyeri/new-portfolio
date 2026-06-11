@@ -67,7 +67,7 @@ export default function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="section-header" style={{ padding: 0, marginBottom: "40px" }}>
-        <div className="section-title">Projects</div>
+        <h2 className="section-title">Projects</h2>
       </div>
       <div className="projects-grid">
         {projects.map((project, index) => (

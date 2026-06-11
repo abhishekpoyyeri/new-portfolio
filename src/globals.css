@@ -117,7 +117,7 @@
         /* =================== NAVBAR =================== */
         nav {
             background: var(--yellow);
-            padding: 14px 40px;
+            padding: 14px 10%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -1287,7 +1287,7 @@
         /* =================== RESPONSIVE =================== */
         @media (max-width: 1024px) {
             .hero {
-                padding: 70px 6% 60px;
+                padding: 70px 10% 60px;
                 gap: 40px;
             }
 
@@ -1296,7 +1296,7 @@
             }
 
             .about-box {
-                grid-template-columns: 1fr;
+                grid-template-columns: minmax(0, 1fr);
             }
 
             .journey-grid {
@@ -1311,7 +1311,7 @@
         @media (min-width: 1280px) {
             .hero {
                 grid-template-columns: 1fr 520px;
-                padding: 110px 12% 80px;
+                padding: 110px 10% 80px;
                 gap: 60px;
                 min-height: calc(100vh - 90px);
             }
@@ -1329,7 +1329,7 @@
 
         @media (max-width: 768px) {
             nav {
-                padding: 12px 20px;
+                padding: 12px 6%;
             }
 
             .menu-toggle {
@@ -1418,6 +1418,14 @@
 
             .tech-stack {
                 padding: 30px 6%;
+                justify-content: center;
+            }
+
+            .tech-stack-label {
+                width: 100%;
+                text-align: center;
+                margin-right: 0;
+                margin-bottom: 8px;
             }
 
             .skills,
@@ -1437,7 +1445,7 @@
 
             .about-box {
                 padding: 24px;
-                grid-template-columns: 1fr;
+                grid-template-columns: minmax(0, 1fr);
             }
 
             .journey-heading {
@@ -1500,7 +1508,7 @@
             }
 
             .skills-grid {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
+                grid-template-columns: 1fr;
                 gap: 16px;
             }
 
@@ -1523,7 +1531,7 @@
             }
 
             .projects-grid {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
+                grid-template-columns: 1fr;
                 gap: 16px;
             }
 
